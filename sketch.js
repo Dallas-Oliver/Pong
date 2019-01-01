@@ -79,26 +79,6 @@ btn.onclick = function () {
 
 }
 
-function GameOver() {
-  if (leftScore == 10 || rightScore == 10) {
-    ball.x = width / 2;
-    ball.y = height / 2;
-    ball.dx = 0;
-    ball.dy = 0;
-    strt.nodeValue = 'Start';
-    leftScore = 0;
-    rightScore = 0;
-    leftPaddle.y = height / 2;
-    rightPaddle.y = height / 2;
-
-    fill(255);
-    textSize(32);
-    text('Game Over');
-  }
-}
-
-
-
 function move() {
   if (keyIsDown(90)) {
     leftPaddle.y += 10;
