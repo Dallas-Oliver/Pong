@@ -12,8 +12,4 @@ function Paddle(x) {
     rectMode(CENTER);
     rect(this.x, this.y, this.w, this.h);
   }
-
-
-
-
 }
