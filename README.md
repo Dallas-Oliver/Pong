@@ -1,2 +1,2 @@
 # Pong
-first attempt at making pong. 
+First attempt at making pong with the P5.JS library in Javascript.
