@@ -63,8 +63,6 @@ btn.onclick = function () {
     ball.dy = randYDir;
     strt.nodeValue = 'Restart';
 
-
-
   } else if (ball.dx !== null) {
     ball.x = width / 2;
     ball.y = height / 2;
